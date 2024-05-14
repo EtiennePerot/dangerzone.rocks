@@ -124,6 +124,15 @@
         <p>If you opened such a malicious document with Dangerzone, it would start the first container and begin the conversion process. While it was converting the original document (say, a docx file) into a PDF using LibreOffice, it would exploit a vulnerability in LibreOffice to hack the container. Then, it would exploit a vulnerability in the Linux kernel to escape the container, and from there attempt to take over the computer.</p>
         <p>If you keep Docker Desktop updated and regularly update the container that Dangerzone uses, such attacks will be much more expensive for attackers.</p>
         <p>Another way a malicious document may harm your system, even with Dangerzone, is if it is crafted to attack the document previewing capabilities of the operating system itself (e.g. the part that generates file thumbnails or document previews in a side-panel of the file manager). Due to the high level of integration of these features in the operating system, disabling them completely may be challenging. For this reason, keeping your system always up to date is the most practical solution to minimize this risk.</p>
+        <p>While we are doing our best to inform journalists about these risks and keep them as safe as possible, we believe its important for third-parties to independently assess our assumptions. For this reason, Dangerzone underwent its <a href="https://freedom.press/news/dangerzone-receives-favorable-audit">first security audit</a> on December 2023 by <a href="https://includesecurity.com/">Include Security</a> with support from the <a href="https://www.opentech.fund/">Open Technology Fund</a>. The audit was generally favorable, as it didn't identify any high-risk findings, except for 3 low-risk and 7 informational findings.
+
+        <h2>What others have written about Dangerzone</h2>
+
+        <ul>
+        <li><a href="https://gijn.org/stories/cutting-edge-free-online-investigative-tools/">GIJN Toolbox: Cutting-Edge — and Free — Online Investigative Tools You Can Try Right Now</a></li>
+        <li><a href="https://www.theguardian.com/info/2024/apr/04/when-security-matters-working-with-qubes-os-at-the-guardian">When security matters: working with Qubes OS at the Guardian</a></li>
+        </ul>
+
         <h2>Dangerzone is open source</h2>
         <p>This tool is still in early development, so there may be bugs. If you find any, please check the <a href="https://github.com/freedomofpress/dangerzone/issues" target="_blank" class="url" rel="noopener noreferrer">issues on GitHub</a> and open one if your issue doesn’t exist. Please start discussions and make pull requests if you’d like to get involved.</p>
         <p>You can find the code for the Mac, Windows, Linux graphical app and the Docker container here: <a href="https://github.com/freedomofpress/dangerzone" target="_blank" class="url" rel="noopener noreferrer">https://github.com/freedomofpress/dangerzone</a></p>
